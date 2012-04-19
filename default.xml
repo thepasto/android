@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote name="thepasto"
+	   fetch="https://github.com/thepasto" />
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
 
@@ -263,4 +266,6 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
 
   <project path="android" name="CyanogenMod/android" />
+  
+  <project path="kernel/acer/salsa" remote="thepasto" name="liquid_chocolate_ics_kernel" revision="refs/heads/master" />
 </manifest>
