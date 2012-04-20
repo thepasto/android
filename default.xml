@@ -268,4 +268,7 @@
   <project path="android" name="CyanogenMod/android" />
   
   <project path="kernel/acer/salsa" remote="thepasto" name="liquid_chocolate_ics_kernel" revision="refs/heads/master" />
+  <project path="device/acer/salsa" remote="thepasto" name="android_device_acer_salsa" revision="refs/heads/master" />
+  <project path="vendo/acer/salsa" remote="thepasto" name="android_vendor_acer_salsa_proprietary" revision="refs/heads/master" /> 
+
 </manifest>
