@@ -4,6 +4,9 @@
   <remote name="thepasto"
 	   fetch="https://github.com/thepasto" />
 
+  <remote name="evervolv"
+	   fetch="https://github.com/Evervolv" />
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
 
@@ -265,10 +268,12 @@
   <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
 
-  <project path="android" name="CyanogenMod/android" />
+  <project path="android" remote="thepasto" name="android" />
   
   <project path="kernel/acer/salsa" remote="thepasto" name="liquid_chocolate_ics_kernel" revision="refs/heads/master" />
   <project path="device/acer/salsa" remote="thepasto" name="android_device_acer_salsa" revision="refs/heads/master" />
   <project path="vendor/acer/salsa" remote="thepasto" name="android_vendor_acer_salsa_proprietary" revision="refs/heads/master" /> 
+
+<project path="hardware/qcom/camera" remote="evervolv" name="android_hardware_qcom_camera" /> 
 
 </manifest>
