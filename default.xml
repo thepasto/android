@@ -218,7 +218,7 @@
   <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="system/wlan/ti" name="CyanogenMod/android_system_wlan_ti" />
-  <project path="vendor/cyanogen" remote="thepasto" name="android_vendor_cyanogen" />
+
   <project path="vendor/qcom/opensource/webkit" name="CyanogenMod/android_vendor_qcom_opensource_webkit" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
@@ -227,6 +227,11 @@
   <project path="vendor/tmobile/themes/Cyanbread" name="CyanogenMod/android_vendor_tmobile_themes_Cyanbread" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
 
-  <project path="android" name="CyanogenMod/android" />
+  <project path="vendor/cyanogen" remote="thepasto" name="android_vendor_cyanogen" />
+  <project path="device/acer/salsa" remote="thepasto" name="android_device_acer_salsa" />
+  <project path="kernel/acer/salsa" remote="thepasto" name="liquid-chocolate" />
+  <project path="vendor/acer/salsa" remote="thepasto" name="android_vendor_acer_salsa_proprietary" />
+
+  <project path="android" remote="thepasto" name="android" />
 
 </manifest>
