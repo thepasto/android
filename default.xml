@@ -229,7 +229,6 @@
 
   <project path="vendor/cyanogen" remote="thepasto" name="android_vendor_cyanogen" />
   <project path="device/acer/salsa" remote="thepasto" name="android_device_acer_salsa" />
-  <project path="kernel/acer/salsa" remote="thepasto" name="liquid-chocolate" />
   <project path="vendor/acer/salsa" remote="thepasto" name="android_vendor_acer_salsa_proprietary" />
 
   <project path="android" remote="thepasto" name="android" />
