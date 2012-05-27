@@ -230,7 +230,7 @@
   <project path="vendor/tmobile/themes/Cyanbread" name="CyanogenMod/android_vendor_tmobile_themes_Cyanbread" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
 
-  <project path="vendor/cyanogen" remote="thepasto" name="android_vendor_cyanogen" revision="gingerbread" />
+  <project path="vendor/cyanogen" remote="thepasto" name="android_vendor_cyanogen" />
   <project path="device/acer/salsa" remote="thepasto" name="android_device_acer_salsa" revision="gingerbread" />
   <project path="vendor/acer/salsa" remote="thepasto" name="android_vendor_acer_salsa_proprietary" revision="gingerbread" />
 
