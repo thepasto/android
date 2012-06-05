@@ -274,7 +274,7 @@
   <project path="kernel/acer/salsa" remote="thepasto" name="liquid-chocolate" />
   <project path="device/acer/salsa" remote="thepasto" name="android_device_acer_salsa" />
   <project path="vendor/acer/salsa" remote="thepasto" name="android_vendor_acer_salsa_proprietary" />
-   <project path="development/apps/LiquidParts" remote="thepasto" name="LiquidParts" revision="refs/heads/master" />
+   <project path="development/apps/LiquidParts" remote="thepasto" name="LiquidParts" />
 <project path="hardware/qcom/camera" remote="thepasto" name="android_hardware_qcom_camerahal" revision="refs/heads/master" /> 
 
 </manifest>
