@@ -232,6 +232,7 @@
   <project path="vendor/cyanogen" remote="thepasto" name="android_vendor_cyanogen" />
   <project path="device/acer/salsa" remote="thepasto" name="android_device_acer_salsa" revision="gingerbread" />
   <project path="vendor/acer/salsa" remote="thepasto" name="android_vendor_acer_salsa_proprietary" revision="gingerbread" />
+<project path="development/apps/LiquidParts" remote="thepasto" name="LiquidParts" revision="gingerbread" />
 
   <project path="android" remote="thepasto" name="android" />
 
