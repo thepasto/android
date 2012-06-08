@@ -4,6 +4,9 @@
   <remote name="thepasto"
 	   fetch="https://github.com/thepasto" />
 
+  <remote name="twrp"
+	   fetch="https://github.com/TeamWin" />
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
 
@@ -22,7 +25,6 @@
   <project path="bionic" name="CyanogenMod/android_bionic" />
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
@@ -270,7 +272,8 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
 
   <project path="android" remote="thepasto" name="android" />
-  
+
+  <project path="bootable/recovery" remote="twrp" name="Team-Win-Recovery-Project" revision="refs/heads/master" />
   <project path="kernel/acer/salsa" remote="thepasto" name="liquid-chocolate" />
   <project path="device/acer/salsa" remote="thepasto" name="android_device_acer_salsa" />
   <project path="vendor/acer/salsa" remote="thepasto" name="android_vendor_acer_salsa_proprietary" />
