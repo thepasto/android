@@ -273,7 +273,7 @@
 
   <project path="android" remote="thepasto" name="android" />
 
-  <project path="bootable/recovery" remote="twrp" name="Team-Win-Recovery-Project" revision="refs/heads/master" />
+  <project path="bootable/recovery" remote="twrp" name="Team-Win-Recovery-Project" revision="master" />
   <project path="kernel/acer/salsa" remote="thepasto" name="liquid-chocolate" />
   <project path="device/acer/salsa" remote="thepasto" name="android_device_acer_salsa" />
   <project path="vendor/acer/salsa" remote="thepasto" name="android_vendor_acer_salsa_proprietary" />
