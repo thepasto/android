@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remote name="thepasto"
+  <remote name="thepasto"
 	   fetch="https://github.com/thepasto" />
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="review.source.android.com" />
 
   <remote  name="korg"
            fetch="git://android.git.kernel.org/"
